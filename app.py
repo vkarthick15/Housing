@@ -73,7 +73,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://www.archdaily.com/944191/how-to-increase-a-citys-affordable-rental-housing-units-the-case-of-barcelona");
+             background-image: url("https://picstatio.com/large/9ce3a0/buildings-silhouette-minimal.jpg");
              background-attachment: fixed;
              background-size: contain
          }}
