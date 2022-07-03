@@ -72,7 +72,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://static.vecteezy.com/system/resources/previews/001/264/276/large_2x/wooden-houses-on-dark-background-free-photo.jpg");
+             background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0df8ATK2Km3McTJIlj2kGQsGujpzKP2qkSA&usqp=CAU");
              background-attachment: fixed;
              background-size: contain
          }}
