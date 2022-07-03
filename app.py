@@ -49,7 +49,6 @@ def texttobins(x):
         return 2
 
 mainroad = texttobin(mainroad)
-st.write('Mainroad : ', basement)
 guestroom = texttobin(guestroom)
 basement = texttobin(basement)
 hotwaterheating = texttobin(hotwaterheating)
@@ -64,6 +63,7 @@ if st.button("Predict"):
     if Area or Bedrooms or bathrooms or stories or parking > 0.0:
         result=model.predict([[Area,Bedrooms,bathrooms,stories,mainroad,guestroom,basement,hotwaterheating,airconditioning,parking,prefarea,furnishing]])
         result=np.round(result)
+        st.write(mainroad)
         st.success('The output is {}'.format(result))
     else:
         st.error("""Insufficient Inputs""")
