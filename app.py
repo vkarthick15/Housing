@@ -72,7 +72,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://p4.wallpaperbetter.com/wallpaper/642/717/297/house-background-cloud-wallpaper-preview.jpg");
+             background-image: url("https://blogsmedia.lse.ac.uk/blogs.dir/8/files/2017/10/skyscrapers-48858_1280.png");
              background-attachment: fixed;
              background-size: contain
          }}
