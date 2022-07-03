@@ -5,7 +5,7 @@ import numpy as np
 model = pickle.load(open("housingprice.pkl", 'rb'))
 
 st.title("Housing Price Prediction")
-st.subheader("Predict your Housing Sale Price")
+st.subheader("You can predict how much your house sells for! ")
 
 #Getting input from user
 Area = st.number_input('Enter Housing Area(SQft)')
