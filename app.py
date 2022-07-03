@@ -4,7 +4,6 @@ import numpy as np
 
 model = pickle.load(open("housingprice.pkl", 'rb'))
 
-#Header
 st.title("Housing Price Prediction")
 st.subheader("Predict your Housing Sale Price")
 
@@ -63,10 +62,9 @@ if st.button("Predict"):
     if Area or Bedrooms or bathrooms or stories or parking > 0.0:
         result=model.predict([[Area,Bedrooms,bathrooms,stories,mainroad,guestroom,basement,hotwaterheating,airconditioning,parking,prefarea,furnishing]])
         result=np.round(result)
-        st.write(mainroad)
         st.success('The output is {}'.format(result))
     else:
-        st.error("""Insufficient Inputs""")
+        st.error("""Insufficient Data For Prediction""")
     
 
 def add_bg_from_url():
