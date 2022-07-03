@@ -73,7 +73,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://picstatio.com/large/9ce3a0/buildings-silhouette-minimal.jpg");
+             background-image: url("https://st.depositphotos.com/1008336/1960/v/600/depositphotos_19603585-stock-illustration-new-york-at-night.jpg");
              background-attachment: fixed;
              background-size: contain
          }}
