@@ -73,7 +73,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://st.depositphotos.com/1008336/1960/v/600/depositphotos_19603585-stock-illustration-new-york-at-night.jpg");
+             background-image: url("https://static.vecteezy.com/system/resources/previews/001/264/276/large_2x/wooden-houses-on-dark-background-free-photo.jpg");
              background-attachment: fixed;
              background-size: contain
          }}
