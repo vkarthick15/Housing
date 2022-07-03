@@ -72,7 +72,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://blogsmedia.lse.ac.uk/blogs.dir/8/files/2017/10/skyscrapers-48858_1280.png");
+             background-image: url("https://static.vecteezy.com/system/resources/previews/001/264/276/large_2x/wooden-houses-on-dark-background-free-photo.jpg");
              background-attachment: fixed;
              background-size: contain
          }}
