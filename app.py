@@ -49,6 +49,7 @@ def texttobins(x):
         return 2
 
 mainroad = texttobin(mainroad)
+st.write('Mainroad : ', basement)
 guestroom = texttobin(guestroom)
 basement = texttobin(basement)
 hotwaterheating = texttobin(hotwaterheating)
