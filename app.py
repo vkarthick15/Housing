@@ -72,7 +72,7 @@ def add_bg_from_url():
          f"""
          <style>
          .stApp {{
-             background-image: url("https://www.wallpaperbetter.com/en/search?q=Dark+House&page=14");
+             background-image: url("https://p4.wallpaperbetter.com/wallpaper/642/717/297/house-background-cloud-wallpaper-preview.jpg");
              background-attachment: fixed;
              background-size: contain
          }}
