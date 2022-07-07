@@ -64,7 +64,7 @@ if st.button("Predict"):
     if Area or Bedrooms or bathrooms or stories or parking > 0.0:
         result=model.predict([[Area,Bedrooms,bathrooms,stories,mainroad,guestroom,basement,hotwaterheating,airconditioning,parking,prefarea,furnishing]])
         result=np.round(result)
-        st.success('The output is {}'.format(result))
+        st.success('The Estimated Price is :  $ {}'.format(result))
     else:
         st.error("""Insufficient Data For Prediction""")
     
